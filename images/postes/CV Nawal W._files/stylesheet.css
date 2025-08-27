@@ -1,0 +1,91 @@
+*{font-family: "Montserrat",serif ;}
+  
+.gradient-background {
+    background: linear-gradient(300deg, #0ba7db, #1e3c72, #2a5298);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+h1{t
+color: whitesmoke;
+font-family:"Poppins", sans-serif;
+
+border-radius: 10%;}
+
+#presentation{
+text-align: justify;
+}
+
+#title{
+  color: whitesmoke;
+}
+
+H2{
+    font-weight: bolder;
+    text-align: center;
+    border-radius: 10%;
+  font-family:"Poppins",serif;
+  border: 2px solid whitesmoke;
+  color:whitesmoke;
+
+}
+
+img{border-radius: 20%;
+align-items: center;}
+
+
+
+#diplome {
+  width: 6rem;
+  height: 6rem;
+  border-radius: .75rem;
+}
+
+icon-square {
+  width: 5rem;
+  height: 5rem;
+  border-radius: .75rem;
+}
+
+footer{
+  font-size: x-small;
+  text-align: center;
+}
+
+#image-poste{
+  width: 4rem;
+  height: 4rem;
+  border-radius: .75rem;
+
+}
+
+.custom-popover {
+  --bs-popover-max-width: 50%;
+  --bs-popover-border-color: var(--bs-primary);
+  --bs-popover-header-bg: var(--bs-primary);
+  --bs-popover-header-color: var(--bs-white);
+  --bs-popover-body-padding-x: 1rem;
+  --bs-popover-body-padding-y: .5rem;
+}
+
+.popover {
+  white-space: pre-wrap;  
+}
+
+H5{
+  font-weight: 700;
+  font-style: italic;
+  font-family: serif;
+}
